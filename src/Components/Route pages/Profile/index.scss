@@ -1,0 +1,28 @@
+.fields {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+.profileButtons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.profileCard {
+  width: 60%;
+  height: fit-content;
+  margin: 16% auto;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.textDark {
+  color: #fff;
+}
+.text {
+  color: black;
+}

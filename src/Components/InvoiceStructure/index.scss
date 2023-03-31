@@ -1,0 +1,110 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+// .taxInvoice {
+//   .-MuiTypography-root {
+//     font-size: 3rem;
+//   }
+// }
+.userData {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  max-width: 40%;
+}
+.title {
+  display: flex;
+  justify-content: center;
+}
+.companyWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.companyData {
+  margin-top: 3rem;
+  width: 40%;
+}
+.page {
+  background: white;
+  display: block;
+  width: 50rem;
+  height: 45rem;
+  padding: 2rem 2rem 4rem 2rem;
+}
+
+.print {
+  animation: blinkingBackground 2s infinite;
+  @keyframes blinkingBackground {
+    0% {
+      color: #ef0a66;
+    }
+    50% {
+      color: #092b59;
+    }
+    100% {
+      color: #e81c2a;
+    }
+  }
+}
+
+.tablecal {
+  border: 0.1px solid #90cced;
+  margin-top: 4rem;
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 1em;
+}
+.thcal {
+  background-color: #90cced;
+}
+.tdcal {
+  border: 0.1px solid #90cced;
+  text-align: end;
+  padding-right: 1rem;
+}
+.trcal {
+  height: 2rem;
+  border: 0.1px solid #90cced;
+}
+.calculation,
+.total {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.total {
+  width: 15rem;
+  margin-left: 31rem;
+  border: 0.1px solid #6cb6df;
+}
+
+.subtotal {
+  text-align: end;
+  font-weight: 800;
+  padding-right: 1rem;
+}
+
+.tdDesc {
+  padding-left: 1rem;
+}
+
+.signature {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.dividersign {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.termConditions {
+  margin-top: 0.5rem;
+}

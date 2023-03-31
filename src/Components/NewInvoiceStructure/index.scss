@@ -1,0 +1,111 @@
+.header2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.ivoryData2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  max-width: 50%;
+}
+.title2 {
+  display: flex;
+  justify-content: center;
+}
+.companyWrapper2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.companyData2 {
+  margin-top: 3rem;
+  width: 40%;
+}
+.page2 {
+  border: 1px solid black;
+  background: white;
+  display: block;
+  width: 50rem;
+  min-height: 70rem;
+  padding: 4rem 2rem 4rem 2rem;
+}
+
+.print2 {
+  animation: blinkingBackground 2s infinite;
+  @keyframes blinkingBackground {
+    0% {
+      color: #ef0a66;
+    }
+    50% {
+      color: #092b59;
+    }
+    100% {
+      color: #e81c2a;
+    }
+  }
+}
+
+.tablecal2 {
+  flex: 9.5;
+  border: 0.1px solid #90cced;
+
+  width: 90%;
+  border-collapse: collapse;
+  border-radius: 1em;
+}
+.thcal2 {
+  background-color: #90cced;
+}
+.tdcal2 {
+  border: 0.1px solid #90cced;
+  text-align: end;
+  padding-right: 1rem;
+}
+.tdlast2 {
+  width: 22%;
+  border: 0.1px solid #90cced;
+  text-align: end;
+}
+.trcal2 {
+  height: 2rem;
+  border: 0.1px solid #90cced;
+}
+.tdDesc2 {
+  padding-left: 1rem;
+}
+.calculation2,
+.total2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.total2 {
+  width: 15rem;
+  margin-left: 31rem;
+  border: 0.1px solid #6cb6df;
+}
+
+.subtotal2 {
+  text-align: end;
+  font-weight: 800;
+  padding-right: 1rem;
+}
+
+.signature2 {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.dividersign2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.termConditions2 {
+  margin-top: 0.5rem;
+}

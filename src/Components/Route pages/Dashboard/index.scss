@@ -1,0 +1,156 @@
+.main {
+  width: 100%;
+}
+.firstwrapper {
+  margin-top: 60px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.receivables {
+  padding: 20px;
+  background: #e8e7e7;
+  border: 1px solid #dedddd;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  color: black;
+  height: 60px;
+}
+
+.receivablesDark {
+  padding: 20px;
+  background: var(--primary-bg);
+  border: 0.5px solid #dedddd;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  color: white;
+  height: 60px;
+}
+.box {
+  border: 1px solid #dedddd;
+  border-width: 0 1px 0 1px;
+  width: 100%;
+  padding: 20px;
+  height: 90px;
+}
+.progressbar {
+  margin: 10px 0 10px 0;
+  height: 1rem;
+  background: #7977777e;
+}
+.progressbarDark {
+  margin: 10px 0 10px 0;
+  height: 1rem;
+  background: #aba9a97e;
+}
+.data {
+  position: relative;
+  width: 100%;
+  display: flex;
+  border: 1px solid #dedddd;
+  border-radius: 0 0 10px 10px;
+  height: 60px;
+  justify-content: space-evenly;
+  .MuiTypography-root {
+    font-size: 24px;
+    padding: 10px;
+    height: 70px;
+    margin-right: 10px;
+  }
+}
+
+.secondwrapper {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+.projects {
+  margin-top: 100px;
+  border: 1px solid #dedddd;
+  width: 45%;
+  height: 450px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.projecttitle {
+  padding: 1.25rem 2rem 1rem 2rem;
+  background: #e8e7e7;
+  border-bottom: 1px solid #dedddd;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  color: black;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.projecttitleDark {
+  padding: 1.25rem 2rem 1rem 2rem;
+  background: var(--primary-bg);
+  border-bottom: 0.5px solid #dedddd;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  color: white;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.projectdata {
+  border-bottom: 1px solid #dedddd;
+  width: 100%;
+  height: 60%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  .MuiListItem-root {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.projectsubdata {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.projectsubdataDark {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+.pageButtons {
+  width: 100%;
+  height: 15%;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.subtitle {
+  padding: 0.75rem 1.6rem 0.75rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #dedddd;
+}
+
+.paginationDark {
+  .MuiPagination-ul {
+    li {
+      .MuiButtonBase-root {
+        border: 1px solid rgba(255, 255, 255, 0.458);
+        color: rgba(255, 255, 255, 0.534);
+      }
+      .Mui-selected {
+        background-color: rgba(255, 255, 255, 0.458);
+        color: black;
+      }
+    }
+  }
+}
